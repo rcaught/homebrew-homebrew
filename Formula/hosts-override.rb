@@ -17,7 +17,7 @@ class HostsOverride < Formula
     (path).install buildpath.children
 
     cd path do
-      system "go", "build", "-o", "#{bin}/hosts-override"
+      system "go", "build", "-o", "hosts-override", "."
       bin.install "hosts-override"
     end
   end
