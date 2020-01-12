@@ -1,9 +1,7 @@
 class Mapr < Formula
   desc "Apply a command to values of structured data, with optional key filtering."
   homepage "https://github.com/rcaught/mapr"
-  url "https://github.com/rcaught/mapr.git",
-      :tag      => "0.0.1",
-      :revision => "1759465d320f388e66b55a306b3b0ab828a57faa"
+  url "https://github.com/rcaught/mapr.git"
   head "https://github.com/rcaught/mapr.git"
 
   depends_on "go" => :build
