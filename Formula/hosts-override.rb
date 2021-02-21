@@ -2,8 +2,8 @@ class HostsOverride < Formula
   desc "Override hosts file entries for the lifetime of the process"
   homepage "https://github.com/rcaught/hosts-override"
   url "https://github.com/rcaught/hosts-override.git",
-      :tag      => "0.6.0",
-      :revision => "e931fdbaded6d88fcc91af89de33a512dd76b56f"
+      :tag      => "0.6.1",
+      :revision => "6d18160e9c08c385c5dcad334e802127dff180c3"
   head "https://github.com/rcaught/hosts-override.git"
 
   depends_on "go" => :build
